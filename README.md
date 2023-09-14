@@ -1,5 +1,7 @@
 # Solution dependency exe project outputs to main project directory with TargetFramework and not with TargetFrameworks
 
+- https://github.com/dotnet/sdk/issues/35379
+
 ### Describe the bug
 
 Prerequisites:
@@ -16,6 +18,8 @@ Observations:
 ### To Reproduce
 
 I've prepared a super simple reproducible project, which is uploaded on GitHub. You can try cloning it to reproduce.
+
+- <https://github.com/walterlv/Walterlv.IssueDemo.AppHostUnexpectedOutput>
 
 In this project:
 
